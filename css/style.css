@@ -1,0 +1,666 @@
+* {
+
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+
+}
+
+
+
+body {
+
+    background:#e5e7eb;
+
+    font-family:"Segoe UI", Arial, sans-serif;
+
+    color:#1f2937;
+
+}
+
+
+
+/* =====================
+MAIN RESUME
+===================== */
+
+
+.resume {
+
+    width:210mm;
+
+    min-height:297mm;
+
+    margin:20px auto;
+
+    background:white;
+
+    box-shadow:0 10px 30px rgba(0,0,0,0.15);
+
+}
+
+
+
+/* =====================
+HEADER
+===================== */
+
+
+.header {
+
+    display:flex;
+
+    align-items:center;
+
+    gap:30px;
+
+    padding:24px 35px;
+
+    border-bottom:3px solid #38bdf8;
+
+}
+
+
+
+.profile-image img {
+
+
+    width:130px;
+
+    height:130px;
+
+    border-radius:50%;
+
+    object-fit:cover;
+
+    border:5px solid #38bdf8;
+
+
+}
+
+
+
+.header-info h1 {
+
+
+    font-size:30px;
+
+    color:#0f172a;
+
+    letter-spacing:1px;
+
+    font-weight:800;
+
+
+}
+
+
+
+.header-info h3 {
+
+
+    margin-top:8px;
+
+    color:#0284c7;
+
+    font-size:17px;
+
+
+}
+
+
+
+.header-info p {
+
+
+    margin-top:6px;
+
+    font-size:13px;
+
+    color:#475569;
+
+
+}
+
+
+
+.header-links {
+
+
+    margin-top:12px;
+
+    display:flex;
+
+    gap:8px;
+
+    flex-wrap:wrap;
+
+
+}
+
+
+
+.header-links a {
+
+
+    color:#0284c7;
+
+    text-decoration:none;
+
+    font-size:12px;
+
+    font-weight:600;
+
+
+}
+
+
+
+.header-links a:hover {
+
+
+    text-decoration:underline;
+
+
+}
+
+
+
+
+/* =====================
+CONTACT INFORMATION
+===================== */
+
+
+.contact-info {
+
+
+    margin:12px 35px 0 35px;
+
+    padding:10px 15px;
+
+    background:#f8fafc;
+
+    border-left:4px solid #38bdf8;
+
+    border-radius:5px;
+
+    display:flex;
+
+    gap:18px;
+
+    flex-wrap:wrap;
+
+
+}
+
+
+
+.contact-info p {
+
+
+    font-size:12px;
+
+    color:#475569;
+
+
+}
+
+
+
+.contact-info b {
+
+
+    color:#0f172a;
+
+
+}
+
+
+
+.contact-info a {
+
+
+    color:#0284c7;
+
+    text-decoration:none;
+
+
+}
+
+
+
+.contact-info a:hover {
+
+
+    text-decoration:underline;
+
+
+}
+
+
+
+
+
+/* =====================
+CONTENT
+===================== */
+
+
+.content {
+
+
+    padding:18px 35px;
+
+
+}
+
+
+
+.content section {
+
+
+    margin-bottom:14px;
+
+
+}
+
+
+
+.content h2 {
+
+
+    font-size:18px;
+
+    color:#0f172a;
+
+    border-bottom:3px solid #38bdf8;
+
+    padding-bottom:5px;
+
+    margin-bottom:9px;
+
+    font-weight:800;
+
+
+}
+
+
+
+.content h3 {
+
+
+    font-size:15px;
+
+    color:#0f172a;
+
+    margin-bottom:4px;
+
+
+}
+
+
+
+.content p {
+
+
+    font-size:12.3px;
+
+    line-height:1.45;
+
+    text-align:justify;
+
+
+}
+
+
+
+.subtitle {
+
+
+    color:#0284c7;
+
+    font-size:12px;
+
+    font-weight:600;
+
+    margin-bottom:6px;
+
+
+}
+
+
+
+.content ul {
+
+
+    margin-left:18px;
+
+
+}
+
+
+
+.content li {
+
+
+    font-size:11.8px;
+
+    line-height:1.35;
+
+    margin-bottom:3px;
+
+
+}
+
+
+
+
+
+/* =====================
+RESEARCH BOX
+===================== */
+
+
+.research-box {
+
+
+    background:#f0f9ff;
+
+    border-left:5px solid #0284c7;
+
+    padding:11px;
+
+    border-radius:6px;
+
+    break-inside:avoid;
+
+
+}
+
+
+
+
+
+/* =====================
+SKILLS
+===================== */
+
+
+.skill-grid {
+
+
+    display:grid;
+
+    grid-template-columns:1fr 1fr;
+
+    gap:9px;
+
+
+}
+
+
+
+.skill-grid div {
+
+
+    background:#f8fafc;
+
+    border-left:4px solid #38bdf8;
+
+    padding:9px;
+
+    border-radius:5px;
+
+
+}
+
+
+
+.skill-grid h3 {
+
+
+    font-size:12.5px;
+
+
+}
+
+
+
+.skill-grid p {
+
+
+    font-size:11.5px;
+
+
+}
+
+
+
+
+
+/* =====================
+PROJECTS
+===================== */
+
+
+.project {
+
+
+    background:#f8fafc;
+
+    border-left:4px solid #0284c7;
+
+    padding:10px;
+
+    margin-bottom:9px;
+
+    border-radius:5px;
+
+    break-inside:avoid;
+
+    page-break-inside:avoid;
+
+
+}
+
+
+
+.project h3 {
+
+
+    font-size:14px;
+
+
+}
+
+
+
+.project b {
+
+
+    color:#0369a1;
+
+
+}
+
+
+
+.project a {
+
+
+    color:#0284c7;
+
+    text-decoration:none;
+
+    font-weight:500;
+
+
+}
+
+
+
+.project a:hover {
+
+
+    text-decoration:underline;
+
+
+}
+
+
+
+
+/* =====================
+EDUCATION
+===================== */
+
+
+.education {
+
+
+    margin-bottom:10px;
+
+    break-inside:avoid;
+
+
+}
+
+
+
+.education h3 {
+
+
+    font-size:14px;
+
+
+}
+
+
+
+
+
+/* =====================
+ONLINE PROFILE
+===================== */
+
+
+.content a {
+
+
+    color:#0284c7;
+
+    text-decoration:none;
+
+
+}
+
+
+
+.content a:hover {
+
+
+    text-decoration:underline;
+
+
+}
+
+
+
+
+
+/* =====================
+PAGE CONTROL
+===================== */
+
+
+section,
+
+.project,
+
+.education,
+
+.research-box {
+
+
+    page-break-inside:avoid;
+
+    break-inside:avoid;
+
+
+}
+
+
+
+
+
+/* =====================
+PRINT OPTIMIZATION
+===================== */
+
+
+@media print {
+
+
+@page {
+
+
+    size:A4;
+
+    margin:12mm;
+
+
+}
+
+
+
+body {
+
+
+    background:white;
+
+    -webkit-print-color-adjust:exact;
+
+    print-color-adjust:exact;
+
+
+}
+
+
+
+.resume {
+
+
+    margin:0;
+
+    width:100%;
+
+    box-shadow:none;
+
+
+}
+
+
+
+.contact-info {
+
+
+    -webkit-print-color-adjust:exact;
+
+    print-color-adjust:exact;
+
+
+}
+
+
+
+a {
+
+
+    color:#0284c7 !important;
+
+
+}
+
+
+}
